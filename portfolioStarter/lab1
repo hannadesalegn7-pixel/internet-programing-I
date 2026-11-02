@@ -1,1 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Hanna Desalegn | Portfolio</title>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+
+        <h1>Hanna Desalegn</h1>
+
+        <img src="photo_2026-11-02_08-59-45.jpg" alt="My Profile Picture" width="150">
+
+        <p>Software Engineering Student and Aspiring Backend Developer.</p>
+
+        <nav>
+            <a href="#about">About</a> |
+            <a href="#skills">Skills</a> |
+            <a href="#projects">Projects</a> |
+            <a href="#education">Education</a> |
+            <a href="#contact">Contact</a> |
+            <a href="#roadmap">My Learning Roadmap</a>
+        </nav>
+
+    </header>
+
+    <hr>
+
+    <!-- ABOUT ME -->
+    <section id="about">
+
+        <h2>About Me</h2>
+
+        <p>
+            Hello! My name is Hanna Desalegn.
+            I am a Software Engineering student who enjoys
+            learning programming and building software applications.
+        </p>
+
+        <p>
+            My current goal is to become a skilled backend developer
+            and explore Artificial Intelligence and Cybersecurity.
+        </p>
+
+        <p>
+            Languages I know: C++, Python, and a little JavaScript.
+        </p>
+
+        <p>
+            Fun fact: I enjoy learning new technologies and solving problems.
+        </p>
+
+    </section>
+
+    <hr>
+
+    <!-- INSPIRATION -->
+    <section>
+
+        <h2>What Inspires Me</h2>
+
+        <blockquote>
+            "The best way to predict the future is to invent it."
+            — Alan Kay
+        </blockquote>
+
+        <p>
+            I believe that consistency and curiosity are important
+            parts of becoming a good software developer.
+        </p>
+
+        <p>
+            My goal is to keep learning, building projects,
+            and improving my skills every day.
+        </p>
+
+    </section>
+
+    <hr>
+
+    <!-- SKILLS -->
+    <section id="skills">
+
+        <h2>Skills</h2>
+
+        <ul>
+
+            <li>Programming Languages
+                <ul>
+                    <li>C++</li>
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                </ul>
+            </li>
+
+            <li>Web Development
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </li>
+
+            <li>Other Interests
+                <ul>
+                    <li>Backend Development</li>
+                    <li>Artificial Intelligence</li>
+                    <li>Cybersecurity</li>
+                </ul>
+            </li>
+
+        </ul>
+
+    </section>
+
+    <hr>
+
+    <!-- LEARNING ROADMAP -->
+    <section id="roadmap">
+
+        <h2>My Learning Roadmap</h2>
+
+        <ol>
+            <li>Master HTML and CSS</li>
+            <li>Learn JavaScript</li>
+            <li>Learn Python and backend development</li>
+            <li>Understand databases and APIs</li>
+            <li>Build real-world projects</li>
+            <li>Explore Artificial Intelligence</li>
+        </ol>
+
+    </section>
+
+    <hr>
+
+    <!-- TOOLS -->
+    <section>
+
+        <h2>Tools I Use</h2>
+
+        <dl>
+
+            <dt><strong>Visual Studio Code</strong></dt>
+            <dd>My code editor for writing and editing programs.</dd>
+
+            <dt><strong>Chrome</strong></dt>
+            <dd>My browser for testing websites and learning.</dd>
+
+            <dt><strong>Git and GitHub</strong></dt>
+            <dd>Tools for managing code and sharing projects.</dd>
+
+        </dl>
+
+    </section>
+
+    <hr>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+
+        <h2>Projects</h2>
+
+        <h3>Simple Calculator</h3>
+
+        <img src="photo_2026-11-02_08-27-27.jpg"
+             alt="Simple Calculator Project"
+             width="300">
+
+        <p>
+            A calculator application that performs basic
+            mathematical operations such as addition,
+            subtraction, multiplication, and division.
+        </p>
+
+        <h3>Library Management System</h3>
+        <img src="photo_2026-11-02_08-27-05.jpg"
+             alt="Library Management System"
+             width="300">
+
+        <p>
+            A simple application for managing books,
+            borrowing books, and returning books.
+        </p>
+
+    </section>
+
+    <hr>
+
+    <!-- EDUCATION -->
+    <section id="education">
+
+        <h2>Education</h2>
+
+        <h3>BSc in Software Engineering</h3>
+
+        <p>Currently pursuing my undergraduate degree.</p>
+
+        <h3>Academic Interests</h3>
+
+        <ul>
+            <li>Programming</li>
+            <li>Database Systems</li>
+            <li>Computer Networks</li>
+            <li>Software Development</li>
+        </ul>
+
+    </section>
+
+    <hr>
+
+    <!-- CONTACT -->
+    <section id="contact">
+
+        <h2>Contact</h2>
+
+        <p>Address: Ethiopia</p>
+
+        <p>Email:
+            <a href="mailto:your-email@example.com">
+                your-email@example.com
+            </a>
+        </p>
+
+        <p>GitHub:
+            <a href="https://github.com/yourusername">
+                My GitHub Profile
+            </a>
+        </p>
+
+        <p>LinkedIn:
+            <a href="https://www.linkedin.com/">
+                My LinkedIn Profile
+            </a>
+        </p>
+
+    </section>
+
+    <hr>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <h3>Connect With Me</h3>
+
+        <p>
+            <a href="https:hannadesalegn7//github.com/">GitHub</a> |
+            <a href="https://www.linkedin.com/">LinkedIn</a> |
+            <a href="hannadesalegn70@gmail.com">Email</a>
+        </p>
+
+        <p>&copy; 2026 Hanna Desalegn. All Rights Reserved.</p>
+
+    </footer>
+
+</body>
+
+</html>
