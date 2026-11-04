@@ -1,1 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="All projects by Hanna Desalegn, Software Engineering student.">
+    <meta name="keywords" content="Hanna Desalegn, projects, software engineering, portfolio">
+    <meta name="author" content="Hanna Desalegn">
+    <title>Projects | Hanna Desalegn</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="ip1.html">&larr; Back to Home</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <h1>My Projects</h1>
+        <p>Details of every project I have built.</p>
+
+        <!-- Project summary table -->
+        <table border="1" cellpadding="6" cellspacing="0">
+            <caption>Project Summary</caption>
+            <thead>
+                <tr>
+                    <th>Project</th>
+                    <th>Language</th>
+                    <th>Year</th>
+                    <th>Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Simple Calculator</td>
+                    <td>Python</td>
+                    <td><time datetime="2024">2024</time></td>
+                    <td><a href="#simple-calculator">Details</a></td>
+                </tr>
+                <tr>
+                    <td>Library Management System</td>
+                    <td>C++</td>
+                    <td><time datetime="2025">2025</time></td>
+                    <td><a href="#library-management">Details</a></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><strong>Total projects</strong></td>
+                    <td colspan="2">2</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Simple Calculator -->
+        <article id="simple-calculator">
+            <h2>Simple Calculator</h2>
+
+            <img src="images/calculator.jpg"
+                 alt="Simple Calculator project screenshot"
+                 width="300">
+
+            <p>A calculator that adds, subtracts, multiplies and divides.</p>
+
+            <!-- Lab 11 Part B: Video with captions -->
+            <h3>Watch the demo</h3>
+            <video controls poster="images/project-demo-poster.jpg" width="480" height="270">
+                <source src="media/project-demo.mp4" type="video/mp4">
+                <source src="media/project-demo.webm" type="video/webm">
+                <track src="media/project-demo.vtt" kind="captions" srclang="en" label="English" default>
+                Your browser does not support the video tag.
+            </video>
+
+            <details>
+                <summary>How I built it</summary>
+                <ol>
+                    <li>Wrote down the four operations the program must support.</li>
+                    <li>Read two numbers and an operator from the user.</li>
+                    <li>Used if/elif to pick the operation.</li>
+                    <li>Handled division by zero with an error message.</li>
+                </ol>
+            </details>
+
+            <h3>Technologies</h3>
+            <ul>
+                <li>Python 3</li>
+                <li>VS Code</li>
+            </ul>
+        </article>
+
+        <!-- Library Management System -->
+        <article id="library-management">
+            <h2>Library Management System</h2>
+
+            <img src="images/library.jpg"
+                 alt="Library Management System screenshot"
+                 width="300">
+
+            <p>A console program for borrowing and returning books.</p>
+
+            <details>
+                <summary>How I built it</summary>
+                <ol>
+                    <li>Designed a data structure to store book records.</li>
+                    <li>Implemented add, remove, and search functions.</li>
+                    <li>Added borrow and return tracking with user records.</li>
+                    <li>Tested edge cases like borrowing an already-borrowed book.</li>
+                </ol>
+            </details>
+
+            <h3>Technologies</h3>
+            <ul>
+                <li>C++</li>
+                <li>Git and GitHub</li>
+            </ul>
+        </article>
+
+    </main>
+
+    <footer>
+        <p>Useful reference: <a href="https://www.w3.org/standards/webdesign/htmlcss">W3C &mdash; <abbr title="HyperText Markup Language">HTML</abbr> standards</a></p>
+        <p><a href="ip1.html#contact">Contact me</a></p>
+        <p>&copy; 2026 Hanna Desalegn. All rights reserved.</p>
+        <p>Last updated: <time datetime="2026-11-04">4 November 2026</time></p>
+    </footer>
+
+</body>
+
+</html>
 
