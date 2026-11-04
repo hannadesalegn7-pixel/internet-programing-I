@@ -1,1 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Hanna Desalegn, Software Engineering student and aspiring backend developer in Addis Ababa.">
+    <meta name="keywords" content="Hanna Desalegn, portfolio, software engineering, backend developer, HTML">
+    <meta name="author" content="Hanna Desalegn">
+    <title>Hanna Desalegn | Portfolio</title>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+
+        <!-- Lab 14: Canvas logo -->
+        <canvas id="logo" width="120" height="120">Hanna Desalegn logo</canvas>
+
+        <h1>Hanna Desalegn</h1>
+
+        <img src="images/profile.png" alt="Portrait of Hanna Desalegn" width="150">
+
+        <p>Software Engineering student and aspiring backend developer.</p>
+
+        <!-- Lab 12: Hire me dialog button -->
+        <button type="button" onclick="document.getElementById('hireDialog').showModal()">Hire me</button>
+
+        <!-- Lab 12: Hire me dialog -->
+        <dialog id="hireDialog">
+            <h2>Available for Internships</h2>
+            <p>I am available for internships and freelance web projects from June 2027.</p>
+            <p>
+                <a href="#contact">Send me a message</a> or
+                <a href="files/cv.pdf" download>download my CV</a>.
+            </p>
+            <button type="button" onclick="document.getElementById('hireDialog').close()">Close</button>
+        </dialog>
+
+        <nav>
+            <a href="#about">About</a> |
+            <a href="#skills">Skills</a> |
+            <a href="#projects">Projects</a> |
+            <a href="#education">Education</a> |
+            <a href="#contact">Contact</a> |
+            <a href="projects.html">All Projects</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <!-- ABOUT ME -->
+        <section id="about">
+
+            <h2>About Me</h2>
+
+            <p>
+                I am a 2<sup>nd</sup> year <strong>Software Engineering</strong> student.
+                I <em>really</em> enjoy building software, and my current goal is to
+                <mark>become a skilled backend developer.</mark>
+            </p>
+
+            <p>
+                Languages I have used: <strong>Python</strong>, <strong>C++</strong>
+                and <em>a little</em> JavaScript.
+                I am now learning <abbr title="HyperText Markup Language">HTML</abbr>.
+            </p>
+
+            <p>Fun fact: I enjoy learning new technologies and solving problems every day.</p>
+
+            <p>
+                My favourite tag is &lt;main&gt;, because it tells the browser
+                where the important content is &amp; helps screen readers.
+            </p>
+
+            <!-- Lab 11 Part A: Audio introduction -->
+            <h3>Hear my introduction</h3>
+            <audio controls>
+                <source src="media/intro.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+        </section>
+
+        <!-- INSPIRATION (aside) -->
+        <aside>
+
+            <h2>What Inspires Me</h2>
+
+            <blockquote>
+                &#8220;The best way to predict the future is to invent it.&#8221; &#8212; Alan Kay
+            </blockquote>
+
+            <p>My teacher always says &#8220;practice beats theory&#8221;, so I code every day.</p>
+
+            <p>Book I am reading: <cite>Clean Code</cite> by Robert C. Martin</p>
+
+            <!-- Lab 11 Part C: Embedded YouTube talk -->
+            <h3>A talk I recommend</h3>
+            <iframe src="https://www.youtube.com/embed/8pTEmbeENF4"
+                    width="560" height="315"
+                    title="YouTube video: Harvard CS50 — Introduction to Programming"
+                    allowfullscreen>
+            </iframe>
+
+        </aside>
+
+        <!-- SKILLS -->
+        <section id="skills">
+
+            <h2>Skills</h2>
+
+            <ul>
+                <li>Programming Languages
+                    <ul>
+                        <li>Python</li>
+                        <li>C++</li>
+                        <li>Java</li>
+                    </ul>
+                </li>
+                <li>Web Development
+                    <ul>
+                        <li><abbr title="HyperText Markup Language">HTML</abbr></li>
+                        <li><abbr title="Cascading Style Sheets">CSS</abbr> (learning)</li>
+                        <li>JavaScript (next)</li>
+                    </ul>
+                </li>
+                <li>Soft Skills
+                    <ul>
+                        <li>Teamwork</li>
+                        <li>Presenting</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <!-- Lab 12 Part C: Skill meters -->
+            <h3>Skill Levels</h3>
+            <p>
+                <label for="lvl-html"><abbr title="HyperText Markup Language">HTML</abbr></label>
+                <meter id="lvl-html" value="0.8" min="0" max="1">80%</meter>
+            </p>
+            <p>
+                <label for="lvl-python">Python</label>
+                <meter id="lvl-python" value="0.65" min="0" max="1">65%</meter>
+            </p>
+            <p>
+                <label for="lvl-js">JavaScript</label>
+                <meter id="lvl-js" value="0.3" min="0" max="1" low="0.3" high="0.7" optimum="1">30%</meter>
+            </p>
+            <p>
+                <label for="lvl-cpp">C++</label>
+                <meter id="lvl-cpp" value="0.55" min="0" max="1">55%</meter>
+            </p>
+
+            <!-- Lab 14: Skill bar chart canvas -->
+            <h3>Skill Chart</h3>
+            <canvas id="skillChart" width="300" height="150">Skill bar chart</canvas>
+
+        </section>
+
+        <!-- LEARNING ROADMAP -->
+        <section id="roadmap">
 
